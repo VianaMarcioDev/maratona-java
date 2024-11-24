@@ -15,7 +15,8 @@ public class Aula02TiposPrimitivos {
 
         char caractere = 65;
         System.out.println(caractere);
-        System.out.println((char)caractere);
+        //noinspection RedundantCast
+        System.out.println((char)caractere); //redundância utilizada para fins de experimentção e visualização de como é o comportamento
 
         int idade = 28;
         System.out.println((double)idade);
